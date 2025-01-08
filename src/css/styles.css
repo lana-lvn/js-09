@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: sans-serif;
   line-height: 1.5;
@@ -37,4 +40,61 @@ img {
   width: 360px;
   height: 200px;
   overflow: hidden;
+}
+
+.go-back {
+  width: 100px;
+  height: 40px;
+
+  background-color: cadetblue;
+  color: beige;
+  border: none;
+  border-radius: 4px;
+  margin: 20px auto;
+  display: block;
+  text-decoration: none;
+
+  align-content: center;
+  text-align: center;
+}
+
+.go-back:hover {
+  cursor: pointer;
+  background-color: #8bb9ba;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 408px;
+  padding: 24px;
+  border: 1px #808080 solid;
+  border-radius: 8px;
+  margin: 30px auto;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+.submit {
+  width: 95px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white;
+  background-color: #4e75ff;
+  align-self: center;
+}
+
+.submit:hover {
+  background-color: #6c8cff;
+  cursor: pointer;
 }
